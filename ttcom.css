@@ -1,0 +1,62 @@
+*{
+
+    margin: 0;
+    padding:0;
+    
+ }
+/*
+video design*/
+#bgvideo{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+  
+}
+/* text design*/
+
+.overlay{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    bottom: 170px;
+    left:350px;
+    text-align: center; 
+}
+.overlay h1{
+    color: white;
+    font-family: bold;
+    font-size: 100px;
+    height: 130px;
+    padding-right: 10px;
+}
+.overlay h2{
+    color: white;
+    font-family: bold;
+    font-size: 30px;
+    left: 80px;
+    
+}
+.overlay h3{
+    color: white;
+    font-size: 40 bold;
+    padding-right: 35px;
+    height: 100px;
+}
+/* button design*/
+.btn{
+    
+ position: absolute;
+ width: 100px;
+ height: 50px;
+ bottom: 200px;
+ border-radius: 40px ;
+ background-color: rgba(240, 248, 255, 0.552);
+ right: 43rem;
+
+}
+.btn a{
+    display: inline-block;
+    color: black;
+    font-family:'Lalezar';
+    font-size: 20px;
+}
