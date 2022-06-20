@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding:0;  
+ }
+
+
+
+ .bg1-img {
+    
+    background-image: url("kh.webp");
+    width: 100%;
+    height: 840px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+     position: relative;
+ }
+ .bg2-img {
+    /* The image used */
+    background-image: url("mountain.jpeg");
+    width: 100%;
+    height: 840px;
+        
+   /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+        
+    /* Needed to position the navbar */
+     position: relative;
+ }
+
+   
+ .bg4-img {
+    
+    background-image: url("sout.jpg");
+    width: 100%;
+    height: 840px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+     position: relative;
+ }
+ .bg5-img {
+    
+    background-image: url("bald.jpg");
+    width: 100%;
+    height: 840px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+     position: relative;
+ }
+ .bgr-img {
+    /* The image used */
+    background-image: url("IMG_9978.jpg");
+    width: 100%;
+    height: 840px;
+        
+   /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+          background-size: cover;
+        
+          /* Needed to position the navbar */
+          position: relative;
+        }
+   
+        
+  /* Position the navbar container inside the image */
+   .container {
+   position: absolute;
+   margin: 20px;
+    width: auto;
+  }
+        
+ /* The navbar */
+   .topnav {
+    overflow: hidden;
+    margin-left: 660px;
+    background-color: rgba(51, 51, 51, 0);
+          
+  }
+        
+   /* Navbar links */
+   .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+   }
+        
+   .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    }
+    
+    .h{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+   
+  }
+
+/*Text over image */
+.heading{
+    
+    color: #000;
+    position: absolute;
+    top: 27%;
+    width: 100%;
+    text-align: center;
+    font-size: 13rem;
+    text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.699);
+}
+.as{
+    color: whitesmoke;
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.699);
+}
+/*Define the area*/
+.start{
+
+    margin-top: 100px;
+    text-align: right;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 10rem;
+    height:15rem;   
+}
+.top{
+    margin: 10px;
+    font-size: 20px;
+    color:rgba(56, 82, 94, 0.884);
+    margin-top: 20px;
+    margin-left: 5rem;
+    width: 25rem;
+}
+.top1{
+    margin: 10px;
+    font-size: 20px;
+    color:rgba(56, 82, 94, 0.884);
+    margin-top: 20px;
+    width: 25rem;  
+}
+.top2{
+    margin: 50px;
+    font-size: 35px;
+    color:rgba(56, 82, 94, 0.884);
+    margin-top: 5rem;
+    margin-right: 5rem;
+}
+/*green box*/
+
+.m1{
+    justify-content: center;
+    margin-top: 40px;
+    width: 100%;
+    height: 200.2rem;
+    background:#041D04;
+    margin-right: 0%;
+}
+.ms{
+    justify-content: center;
+    margin-top: 40px;
+    width: 100%;
+    height: 135.8rem;
+    background:#041D04;
+    margin-right: 0%;
+}
+/*The text is above the green box*/
+.top3{
+    margin: 10px;
+    font-size: 40px;
+    color:rgba(200, 205, 207, 0.884);
+    margin-top: 5rem;
+    margin-left: 57rem;  
+}
+.top4{
+    margin: 5px;
+    font-size: 30px;
+    color:rgba(200, 205, 207, 0.884);
+    margin-top: 1rem;
+    margin-left: 9rem;  
+}
+/*Design pictures in a small box*/
+.pin{
+    width: 400px;
+    height: 500px;
+    margin: 0%;
+    float: left;
+    border-radius: 0px ;
+}
+/*Design small box  in a green box*/
+.m1-section{
+    height:500px;
+    width: 1100px;
+    border-radius: 0px ;
+    background:#eeebe8f0;
+    box-shadow:5px 10px 20px #000;
+    margin: 0px;
+    margin-top: 1rem;
+    margin-left: 10rem;
+}
+.infm{
+   
+    padding:5px ;
+    margin-left: 40px;
+   background: none;
+   height: 2px;
+   border-radius: 0px 0px 10px 10px;
+}
+/*design text in small box*/
+.texm1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    color:rgba(56, 82, 94, 0.884);
+    margin-top: 100px;
+}
+.texm11{
+
+    margin: 5px;
+    margin-top: 2px;
+    font-size: 20px;
+    color:rgb(15, 11, 11);
+    text-align: center;
+    padding: 0;
+}
+.texm111{
+    margin: 5px;
+   
+    font-size: 20px;
+    color: rgb(94, 63, 63);
+    text-align: center;
+    padding: 0;
+
+}
+/* another Design small box  in a green box*/
+.m2-section{
+    height:500px;
+    width: 1100px;
+    text-align: right;
+    display: flex;
+    border-radius: 0px ;
+    background:#eeebe8f0;
+    box-shadow:5px 10px 20px #000;
+    margin: 0px;
+    margin-top: 13px;
+    margin-left: 10rem;
+}
+.texms{
+    margin-bottom: 30px;
+    margin: 1px;
+    margin-top: 6rem;
+    font-size: 40px;
+    margin-right: 3px;
+    color:rgb(15, 11, 11);
+    text-align: center;
+    padding: 0;
+}
+/* car box */
+.se4{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    margin: 0;
+    margin-top: 1px;
+    margin-right: 100px;
+    height: 700px;
+    width: 90rem;
+}
+/* design pic for car ,Hotels،Restaurants*/
+.pic4{
+    width: 300px;
+    height: 230px;
+    float: left;
+    position: relative;
+}
+/* design pox for car ,Hotels،Restaurants*/
+.se4-section{
+    height:500px;
+    width: 300px;
+    border-radius: 4px ;
+    background:#042f1b;
+    box-shadow:5px 10px 20px #000;
+    margin: 40px;
+    margin-top: 0;
+    overflow: hidden;   
+}
+.info4{
+
+    padding:5px ;
+    background: none;
+    height: 250px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.tex7{
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    color: rgb(219, 223, 223);
+}
+.tex8{
+    text-align: center;
+    font-size: 20px;
+    top: 90px;
+    color: rgb(219, 223, 223);
+    margin: 0rem ;
+    
+    margin-top: 10px;
+    padding: 0;
+}
+/* app pox*/
+.ser{
+    display: flex;
+    margin-top: 19px;
+    justify-content: right;
+    background:#041D04;
+}
+.se6r{
+    height:350px;
+    width: 400px;
+    margin: 0;
+    margin-left: 150px;
+    margin-right: 300px;
+    overflow: hidden;
+    display: flex;
+}
+/* design emergency numbers*/
+.ser-section{
+    height:270px;
+    width: 250px;
+    margin: 0;
+    margin-left: 200px;
+    margin-right: 100px;
+    text-align: center;
+    overflow: hidden; 
+}
+/* design text in  emergency numbers*/
+.texr{
+    text-align: center;
+    margin: 15px;
+    font-size: 25px;
+    margin-top: 50px;
+    color: rgb(236, 237, 237);
+}
+.tex1r{
+    text-align: center;
+    font-size: 20px;
+    top: 90px;
+    color: rgb(236, 237, 237);
+    margin: 0rem ;
+    padding: 0;
+}
+
+
+
+.se4r-section{
+    height:350px;
+    width: 600px;
+    margin: 0 auto;
+    margin-right: 80px;
+    text-align: center;
+    overflow: hidden;
+}
+/*design button app*/
+.btr{
+    margin-top:  100px;
+    margin-bottom: 20px;
+    margin: 30px auto ;
+    text-align: top; 
+    width: 100px;
+    height: 80px;
+    border-radius: 40px ;
+    background:url(twk.jpg);
+    background-size: cover;
+    margin-left: 20px;
+}
+
+.btn2r{
+    height: 160px;
+    width: 100px;
+    font-size: 30px;
+    transition: 4s all;
+    background: none;
+    outline: none;
+    color: rgba(0, 0, 255, 0);
+}
+.btrr{
+    margin-bottom: 20px;
+    margin: 10px auto ;
+    text-align: center; 
+    width: 100px;
+    height: 80px;
+    border-radius: 40px ;
+    background:url(s7t.jpg);
+    background-size: cover;
+    margin-left: 2px;
+}
+
+.btr1{
+    margin-bottom: 20px;
+    margin: 10px auto ;
+    text-align: center; 
+    width: 100px;
+    height: 80px;
+    border-radius: 40px ;
+    background:url(carem.jpg);
+    background-size: cover;
+    margin-left: 15px;
+}
+.btr12{
+    margin-bottom: 20px;
+    margin: 10px auto ;
+    text-align: center; 
+    width: 100px;
+    height: 80px;
+    border-radius: 40px ;
+    background:url(uber.jpg);
+    background-size: cover;
+    margin-left: 2px;
+}
